@@ -1,0 +1,4 @@
+import IISPrilozhenie_parkomataАвтомобильEController from '../i-i-s-prilozhenie-parkomata-автомобиль-e';
+
+var IISPrilozhenie_parkomataАвтомобильENewController = IISPrilozhenie_parkomataАвтомобильEController;
+export default IISPrilozhenie_parkomataАвтомобильENewController;

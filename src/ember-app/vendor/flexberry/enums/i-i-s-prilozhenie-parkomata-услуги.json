@@ -1,0 +1,9 @@
+﻿{
+  "nameSpace": "IIS.Prilozhenie_parkomata",
+  "className": "Услуги",
+  "enumObjects": {
+    "1": "краткосрочная",
+    "2": "среднесрочная",
+    "3": "долгосрочная"
+  }
+}

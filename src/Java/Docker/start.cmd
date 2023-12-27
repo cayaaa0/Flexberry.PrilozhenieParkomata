@@ -1,0 +1,1 @@
+docker-compose -p prilozhenie_parkomata-java up -d

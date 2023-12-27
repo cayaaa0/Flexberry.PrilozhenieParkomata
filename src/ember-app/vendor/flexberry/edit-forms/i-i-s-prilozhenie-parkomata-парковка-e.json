@@ -1,0 +1,39 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": "шлагбаум",
+      "displayAttributeName": "адрес",
+      "required": true,
+      "relationName": "Паркомат.Шлагбаум",
+      "projection": "ШлагбаумL",
+      "detailModelName": "i-i-s-prilozhenie-parkomata-паркомат"
+    },
+    {
+      "master": "терминал",
+      "displayAttributeName": "адрес",
+      "required": true,
+      "relationName": "Паркомат.Терминал",
+      "projection": "ТерминалL",
+      "detailModelName": "i-i-s-prilozhenie-parkomata-паркомат"
+    },
+    {
+      "master": "услуга",
+      "displayAttributeName": "длительность",
+      "required": true,
+      "relationName": "Паркомат.Услуга",
+      "projection": "УслугаL",
+      "detailModelName": "i-i-s-prilozhenie-parkomata-паркомат"
+    }
+  ],
+  "external": false,
+  "caption": "Парковка",
+  "name": "IISPrilozhenie_parkomataПарковкаE",
+  "className": "ПарковкаE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-prilozhenie-parkomata-парковка",
+      "modelProjection": "ПарковкаE"
+    }
+  ]
+}

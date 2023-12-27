@@ -1,0 +1,64 @@
+﻿{
+  "applicationCaption": "Prilozhenie_parkomata",
+  "applicationTitle": "Prilozhenie_parkomata",
+  "items": [
+    {
+      "link": null,
+      "menuName": "prilozhenie-parkomata",
+      "caption": "Prilozhenie_parkomata",
+      "title": "Prilozhenie_parkomata",
+      "children": [
+        {
+          "link": "i-i-s-prilozhenie-parkomata-парковка-l",
+          "menuName": null,
+          "caption": "Парковка",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-prilozhenie-parkomata-услуга-l",
+          "menuName": null,
+          "caption": "Услуга",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-prilozhenie-parkomata-шлагбаум-l",
+          "menuName": null,
+          "caption": "Шлагбаум",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-prilozhenie-parkomata-водитель-l",
+          "menuName": null,
+          "caption": "Водитель",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-prilozhenie-parkomata-терминал-l",
+          "menuName": null,
+          "caption": "Терминал",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-prilozhenie-parkomata-автомобиль-l",
+          "menuName": null,
+          "caption": "Автомобиль",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-prilozhenie-parkomata-парк-место-l",
+          "menuName": null,
+          "caption": "Парк место",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-prilozhenie-parkomata-шлагбаум-e",
+  "editForm": "i-i-s-prilozhenie-parkomata-шлагбаум-e",
+  "external": false,
+  "caption": "Шлагбаум",
+  "name": "IISPrilozhenie_parkomataШлагбаумL",
+  "className": "ШлагбаумL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-prilozhenie-parkomata-шлагбаум",
+      "modelProjection": "ШлагбаумL"
+    }
+  ]
+}

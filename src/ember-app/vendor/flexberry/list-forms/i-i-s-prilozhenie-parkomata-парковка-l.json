@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-prilozhenie-parkomata-парковка-e",
+  "editForm": "i-i-s-prilozhenie-parkomata-парковка-e",
+  "external": false,
+  "caption": "Парковка",
+  "name": "IISPrilozhenie_parkomataПарковкаL",
+  "className": "ПарковкаL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-prilozhenie-parkomata-парковка",
+      "modelProjection": "ПарковкаL"
+    }
+  ]
+}

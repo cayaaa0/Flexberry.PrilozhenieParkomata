@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-prilozhenie-parkomata-услуга-e",
+  "editForm": "i-i-s-prilozhenie-parkomata-услуга-e",
+  "external": false,
+  "caption": "Услуга",
+  "name": "IISPrilozhenie_parkomataУслугаL",
+  "className": "УслугаL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-prilozhenie-parkomata-услуга",
+      "modelProjection": "УслугаL"
+    }
+  ]
+}

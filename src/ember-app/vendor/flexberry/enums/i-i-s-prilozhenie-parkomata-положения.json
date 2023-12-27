@@ -1,0 +1,8 @@
+﻿{
+  "nameSpace": "IIS.Prilozhenie_parkomata",
+  "className": "Положения",
+  "enumObjects": {
+    "1": "открыт",
+    "2": "закрыт"
+  }
+}

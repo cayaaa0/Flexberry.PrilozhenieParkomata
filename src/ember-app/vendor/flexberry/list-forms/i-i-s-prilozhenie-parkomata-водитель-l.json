@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-prilozhenie-parkomata-водитель-e",
+  "editForm": "i-i-s-prilozhenie-parkomata-водитель-e",
+  "external": false,
+  "caption": "Водитель",
+  "name": "IISPrilozhenie_parkomataВодительL",
+  "className": "ВодительL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-prilozhenie-parkomata-водитель",
+      "modelProjection": "ВодительL"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-prilozhenie-parkomata-терминал-e",
+  "editForm": "i-i-s-prilozhenie-parkomata-терминал-e",
+  "external": false,
+  "caption": "Терминал",
+  "name": "IISPrilozhenie_parkomataТерминалL",
+  "className": "ТерминалL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-prilozhenie-parkomata-терминал",
+      "modelProjection": "ТерминалL"
+    }
+  ]
+}

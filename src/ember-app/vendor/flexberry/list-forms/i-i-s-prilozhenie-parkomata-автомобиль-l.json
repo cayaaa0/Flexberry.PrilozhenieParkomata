@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-prilozhenie-parkomata-автомобиль-e",
+  "editForm": "i-i-s-prilozhenie-parkomata-автомобиль-e",
+  "external": false,
+  "caption": "Автомобиль",
+  "name": "IISPrilozhenie_parkomataАвтомобильL",
+  "className": "АвтомобильL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-prilozhenie-parkomata-автомобиль",
+      "modelProjection": "АвтомобильL"
+    }
+  ]
+}

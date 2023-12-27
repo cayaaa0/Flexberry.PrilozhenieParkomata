@@ -1,0 +1,148 @@
+﻿{
+  "name": "IISPrilozhenie_parkomataПаркомат",
+  "modelName": "i-i-s-prilozhenie-parkomata-паркомат",
+  "className": "Паркомат",
+  "nameSpace": "IIS.Prilozhenie_parkomata",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "адрес",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "номерПарк",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "терминал",
+      "relatedTo": "i-i-s-prilozhenie-parkomata-терминал",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "услуга",
+      "relatedTo": "i-i-s-prilozhenie-parkomata-услуга",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "шлагбаум",
+      "relatedTo": "i-i-s-prilozhenie-parkomata-шлагбаум",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "парковка",
+      "relatedTo": "i-i-s-prilozhenie-parkomata-парковка",
+      "inverse": "паркомат"
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ПаркоматE",
+      "modelName": "i-i-s-prilozhenie-parkomata-паркомат",
+      "attrs": [
+        {
+          "name": "адрес",
+          "caption": "Адрес",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "номерПарк",
+          "caption": "Номер парк",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": "Адрес",
+          "lookupValueField": "адрес",
+          "relationName": "Шлагбаум",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "адрес",
+              "caption": "Адрес",
+              "hidden": true,
+              "index": 3
+            }
+          ],
+          "index": 2,
+          "type": "standard",
+          "caption": "Шлагбаум",
+          "name": "шлагбаум",
+          "relatedTo": "i-i-s-prilozhenie-parkomata-шлагбаум",
+          "inverse": null
+        },
+        {
+          "lookupValue": "Адрес",
+          "lookupValueField": "адрес",
+          "relationName": "Терминал",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "адрес",
+              "caption": "Адрес",
+              "hidden": true,
+              "index": 5
+            }
+          ],
+          "index": 4,
+          "type": "standard",
+          "caption": "Терминал",
+          "name": "терминал",
+          "relatedTo": "i-i-s-prilozhenie-parkomata-терминал",
+          "inverse": null
+        },
+        {
+          "lookupValue": "Длительность",
+          "lookupValueField": "длительность",
+          "relationName": "Услуга",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "длительность",
+              "caption": "Длительность",
+              "hidden": true,
+              "index": 7
+            }
+          ],
+          "index": 6,
+          "type": "standard",
+          "caption": "Услуга",
+          "name": "услуга",
+          "relatedTo": "i-i-s-prilozhenie-parkomata-услуга",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

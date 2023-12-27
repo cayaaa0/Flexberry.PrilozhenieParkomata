@@ -1,0 +1,8 @@
+﻿{
+  "nameSpace": "IIS.Prilozhenie_parkomata",
+  "className": "Оплата",
+  "enumObjects": {
+    "2": "ожидает оплаты",
+    "1": "оплачено"
+  }
+}

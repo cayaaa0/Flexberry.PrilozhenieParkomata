@@ -1,0 +1,96 @@
+﻿{
+  "name": "IISPrilozhenie_parkomataШлагбаум",
+  "modelName": "i-i-s-prilozhenie-parkomata-шлагбаум",
+  "className": "Шлагбаум",
+  "nameSpace": "IIS.Prilozhenie_parkomata",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "адрес",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "номШлаг",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "положение",
+      "type": "i-i-s-prilozhenie-parkomata-положения",
+      "flexberryType": "Положения",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ШлагбаумE",
+      "modelName": "i-i-s-prilozhenie-parkomata-шлагбаум",
+      "attrs": [
+        {
+          "name": "адрес",
+          "caption": "Адрес",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "положение",
+          "caption": "Положение",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "номШлаг",
+          "caption": "Номер шлагбаума",
+          "hidden": false,
+          "index": 2
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "ШлагбаумL",
+      "modelName": "i-i-s-prilozhenie-parkomata-шлагбаум",
+      "attrs": [
+        {
+          "name": "адрес",
+          "caption": "Адрес",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "положение",
+          "caption": "Положение",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "номШлаг",
+          "caption": "Номер шлагбаума",
+          "hidden": false,
+          "index": 2
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

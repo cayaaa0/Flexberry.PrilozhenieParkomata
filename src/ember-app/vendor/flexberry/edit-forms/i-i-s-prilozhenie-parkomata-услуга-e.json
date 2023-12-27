@@ -1,0 +1,31 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": "паркМесто",
+      "displayAttributeName": "адрес",
+      "required": true,
+      "relationName": "ЗапОбУсл.ПаркМесто",
+      "projection": "ПаркМестоL",
+      "detailModelName": "i-i-s-prilozhenie-parkomata-зап-об-усл"
+    },
+    {
+      "master": "автомобиль",
+      "displayAttributeName": "госНомер",
+      "required": true,
+      "relationName": "ЗапОбУсл.Автомобиль",
+      "projection": "АвтомобильL",
+      "detailModelName": "i-i-s-prilozhenie-parkomata-зап-об-усл"
+    }
+  ],
+  "external": false,
+  "caption": "Услуга",
+  "name": "IISPrilozhenie_parkomataУслугаE",
+  "className": "УслугаE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-prilozhenie-parkomata-услуга",
+      "modelProjection": "УслугаE"
+    }
+  ]
+}

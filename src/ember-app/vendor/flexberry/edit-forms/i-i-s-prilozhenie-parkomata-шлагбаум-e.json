@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Шлагбаум",
+  "name": "IISPrilozhenie_parkomataШлагбаумE",
+  "className": "ШлагбаумE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-prilozhenie-parkomata-шлагбаум",
+      "modelProjection": "ШлагбаумE"
+    }
+  ]
+}

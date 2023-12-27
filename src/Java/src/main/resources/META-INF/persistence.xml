@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1"
+	xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistencehttp://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+    <persistence-unit name="Olingo4PG">
+        <class>Prilozhenie_parkomata.model.Parkovka</class>
+        <class>Prilozhenie_parkomata.model.Usluga</class>
+        <class>Prilozhenie_parkomata.model.SHlagbaum</class>
+        <class>Prilozhenie_parkomata.model.Voditel</class>
+        <class>Prilozhenie_parkomata.model.Terminal</class>
+        <class>Prilozhenie_parkomata.model.Avtomobil</class>
+        <class>Prilozhenie_parkomata.model.ParkMesto</class>
+        <class>Prilozhenie_parkomata.model.Parkomat</class>
+        <class>Prilozhenie_parkomata.model.ZapObUsl</class>
+        <class>Prilozhenie_parkomata.model.FlexberryAdvLimit</class>
+        <class>Prilozhenie_parkomata.model.NewPlatformFlexberryFlexberryUserSetting</class>
+        <class>Prilozhenie_parkomata.model.NewPlatformFlexberryServicesLock</class>
+        <class>Prilozhenie_parkomata.model.IISCaseberryLoggingObjectsApplicationLog</class>
+
+    </persistence-unit>
+</persistence>

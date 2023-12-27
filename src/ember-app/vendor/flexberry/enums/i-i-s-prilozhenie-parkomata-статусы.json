@@ -1,0 +1,8 @@
+﻿{
+  "nameSpace": "IIS.Prilozhenie_parkomata",
+  "className": "Статусы",
+  "enumObjects": {
+    "1": "свободно",
+    "2": "занято"
+  }
+}

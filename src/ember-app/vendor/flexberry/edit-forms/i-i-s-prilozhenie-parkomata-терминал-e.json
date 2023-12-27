@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Терминал",
+  "name": "IISPrilozhenie_parkomataТерминалE",
+  "className": "ТерминалE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-prilozhenie-parkomata-терминал",
+      "modelProjection": "ТерминалE"
+    }
+  ]
+}

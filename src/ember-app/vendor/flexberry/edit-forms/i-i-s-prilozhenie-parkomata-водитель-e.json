@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Водитель",
+  "name": "IISPrilozhenie_parkomataВодительE",
+  "className": "ВодительE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-prilozhenie-parkomata-водитель",
+      "modelProjection": "ВодительE"
+    }
+  ]
+}
