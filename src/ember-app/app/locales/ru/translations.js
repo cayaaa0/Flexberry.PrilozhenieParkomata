@@ -104,6 +104,38 @@ $.extend(true, translations, {
           caption: 'Главная',
           title: ''
         },
+        паркомат: {
+          caption: 'Паркомат',
+          title: 'Паркомат',
+          'i-i-s-prilozhenie-parkomata-парковка-l': {
+            caption: 'Парковка',
+            title: ''
+          },
+          'i-i-s-prilozhenie-parkomata-услуга-l': {
+            caption: 'Услуга',
+            title: ''
+          },
+          'i-i-s-prilozhenie-parkomata-шлагбаум-l': {
+            caption: 'Шлагбаум',
+            title: ''
+          },
+          'i-i-s-prilozhenie-parkomata-водитель-l': {
+            caption: 'Водитель',
+            title: ''
+          },
+          'i-i-s-prilozhenie-parkomata-терминал-l': {
+            caption: 'Терминал',
+            title: ''
+          },
+          'i-i-s-prilozhenie-parkomata-автомобиль-l': {
+            caption: 'Автомобиль',
+            title: ''
+          },
+          'i-i-s-prilozhenie-parkomata-парк-место-l': {
+            caption: 'Парковочное место',
+            title: ''
+          }
+        },
         'prilozhenie-parkomata': {
           caption: 'Prilozhenie_parkomata',
           title: 'Prilozhenie_parkomata',

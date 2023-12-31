@@ -4,9 +4,9 @@
   "items": [
     {
       "link": null,
-      "menuName": "prilozhenie-parkomata",
-      "caption": "Prilozhenie_parkomata",
-      "title": "Prilozhenie_parkomata",
+      "menuName": "паркомат",
+      "caption": "Паркомат",
+      "title": "Паркомат",
       "children": [
         {
           "link": "i-i-s-prilozhenie-parkomata-парковка-l",
@@ -53,7 +53,7 @@
         {
           "link": "i-i-s-prilozhenie-parkomata-парк-место-l",
           "menuName": null,
-          "caption": "Парк место",
+          "caption": "Парковочное место",
           "title": "",
           "children": null
         }
